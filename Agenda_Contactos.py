@@ -36,7 +36,7 @@ def buscar_contacto(agenda):
         print(f"Email: {agenda[nombre]['Email']}")
     else:
         print("\n")
-        print(f"El contacto '{nombre}' no ha sido encontrado")
+        print(f"¡El contacto '{nombre}' no ha sido encontrado!")
 
 def listar_contacto(agenda):
     if agenda:
