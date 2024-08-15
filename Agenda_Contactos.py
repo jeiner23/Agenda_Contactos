@@ -18,6 +18,7 @@ def agregar_contacto(agenda):
 
 def eliminar_contacto(agenda):
     nombre = input("Dijite el contacto que desea eliminar: ")
+    print("\n")
     if nombre in agenda:
         del agenda[nombre]
         print("\n")
